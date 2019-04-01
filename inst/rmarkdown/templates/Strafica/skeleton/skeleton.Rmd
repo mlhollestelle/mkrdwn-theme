@@ -1,14 +1,12 @@
 ---
-title: "PCTG R Markdown template"
-author: "[Yan Holtz](https://github.com/holtzy)"
+title: "Strafica R Markdown template"
+author: "[Strafica Oy](http://www.strafica.fi)"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-mail: "yan.holtz.data@gmail.com"
+mail: "martijn.hollestelle@strafica.fi"
 linkedin: "yan-holtz-2477534a"
-twitter: "r_graph_gallery"
-github: "holtzy"
-home: "www.yan-holtz.com"
+home: "http://www.strafica.fi"
 output:
-  epuRate::PCTG:
+  epuRate::Strafica:
     toc: TRUE
     number_sections: FALSE
     code_folding: "hide"
@@ -22,7 +20,7 @@ library(epuRate)      # devtools::install_github("holtzy/epuRate", force=TRUE)
 
 <br><br><br><br>
 
->Welcome in the [PCTG R Markdown template](https://github.com/holtzy/epuRate). This document describes how the template looks like, building an interactive Manhattan plot.
+>Welcome in the [Strafica R Markdown template](https://github.com/mlhollestelle/epuRate). This document describes how the template looks like, building an interactive Manhattan plot.
 
 
 

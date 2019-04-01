@@ -21,12 +21,12 @@ epurate <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
 }
 
 
-# Features of PCTG Template
-PCTG <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
+# Features of Strafica Template
+Strafica <- function(toc = TRUE, code_folding = "hide", number_sections=TRUE) {
 
   # get the locations of resource files located within the package
-  css <- system.file("rmarkdown", "templates", "PCTG" ,"resources", "style.css", package = "epuRate")
-  template <- system.file("rmarkdown", "templates", "PCTG" ,"resources", "template_pctg.html", package = "epuRate")
+  css <- system.file("rmarkdown", "templates", "Strafica" ,"resources", "style.css", package = "epuRate")
+  template <- system.file("rmarkdown", "templates", "Strafica" ,"resources", "template_Strafica.html", package = "epuRate")
 
   # call the base html_document function
   rmarkdown::html_document( theme= "lumen",
